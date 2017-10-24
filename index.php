@@ -35,6 +35,11 @@
 
     <link href="./vendor/twbs/bootstrap/docs/examples/navbar-static-top/navbar-static-top.css" rel="stylesheet">
 
+    <!-- rmbc -->
+    <!--
+    <link href="./coreFRONTx/rmbc.css" rel="stylesheet">
+    <link href="./coreFRONTx/Xrmbc.js" rel="stylesheet">
+  -->
 
     <!-- Estilo SEP HIDALGO -->
     <link href="./seph/style.css" rel="stylesheet">
@@ -43,16 +48,22 @@
 
   <body>
 
+
     <?php include ('./seph/hf/header.html'); ?>
 
     <?php include ('./coreFRONTx/menu.html'); ?>
+
+    <?php //include ('./coreFRONTx/rmbc.html'); ?>
+
+    <?php include ('./coreFRONTx/gsearch.html'); ?>
 
     <?php include ('./coreFRONTx/caroucel.php'); ?>
 
     <?php include ('./coreFRONTx/marketing.php'); ?>
 
-    <?php include ('./coreFRONTx/menufooter.php'); ?>
+    <?php include ('./coreFRONTx/gcalendar.html'); ?>
 
+    <?php include ('./coreFRONTx/menufooter.php'); ?>
 
 
 
@@ -85,7 +96,7 @@
 
 
     Ver 0.11
-  
+
 
   </body>
 </html>
