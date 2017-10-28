@@ -12,17 +12,23 @@
     <title>Universidad Politécnica de Pachuca</title>
 
     <link rel="icon" href="./images/favicon.ico">
+
+    <!-- Font Awesome -->
     <link href="./vendor/fortawesome/font-awesome/css/font-awesome.css" rel="stylesheet">
 
     <!-- Bootstrap core CSS -->
     <link href="./vendor/twbs/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <!-- Checar
     <link href="./coreFRONTx/ie10-viewport-bug-workaround.css" rel="stylesheet">
+  -->
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <!-- Checar
     <script src="./coreFRONTx/ie-emulation-modes-warning.js"></script>
+  -->
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -30,15 +36,23 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <!-- Custom styles for this template -->
+    <!-- Modelo de ejemplo para el carrucel NO USAR
     <link href="./vendor/twbs/bootstrap/docs/examples/carousel/carousel.css" rel="stylesheet">
+  -->
 
+    <!-- Para centrar los iconos -->
+    <link href="./coreFRONTx/iconos/iconos-centrados.css" rel="stylesheet">
+
+    <!-- Checar
     <link href="./vendor/twbs/bootstrap/docs/examples/navbar-static-top/navbar-static-top.css" rel="stylesheet">
+  -->
 
     <!-- rmbc -->
+    <link href="./coreFRONTx/rmbc/rmbc.css" rel="stylesheet">
+
+    <!-- Fondo para la página -->
     <!--
-    <link href="./coreFRONTx/rmbc.css" rel="stylesheet">
-    <link href="./coreFRONTx/Xrmbc.js" rel="stylesheet">
+    <link href="./coreFRONTx/fondo.css" rel="stylesheet">
   -->
 
     <!-- Estilo SEP HIDALGO -->
@@ -48,40 +62,45 @@
 
   <body>
 
-
     <?php include ('./seph/hf/header.html'); ?>
+    <?php include ('./coreFRONTx/menusup/menu.html'); ?>
+    <?php include ('./coreFRONTx/goo/gsearch.html'); ?>
+    <?php include ('./coreFRONTx/caroucel/caroucel.html'); ?>
 
-    <?php include ('./coreFRONTx/menu.html'); ?>
+    <br />
 
-    <?php //include ('./coreFRONTx/rmbc.html'); ?>
-
-    <?php include ('./coreFRONTx/gsearch.html'); ?>
-
-    <?php include ('./coreFRONTx/caroucel.php'); ?>
-
-    <?php include ('./coreFRONTx/marketing.php'); ?>
-
-    <?php include ('./coreFRONTx/gcalendar.html'); ?>
-
-    <?php include ('./coreFRONTx/menufooter.php'); ?>
-
-
+    <div class="container marketing">
+      <?php include ('./coreFRONTx/iconos/marketing.html'); ?>
+        <hr class="featurette-divider">
+      <?php include ('./coreFRONTx/rmbc/rmbc.html'); ?>
+        <hr class="featurette-divider">
+      <?php include ('./coreFRONTx/comunidad/comunidadupp.html'); ?>
+        <hr class="featurette-divider">
+      <?php include ('./coreFRONTx/comunidad/egresados.html'); ?>        
+        <hr class="featurette-divider">
+      <?php include ('./coreFRONTx/goo/gcalendar.html'); ?>
+        <hr class="featurette-divider">
+      <?php include ('./coreFRONTx/menufooter.php'); ?>
+        <hr class="featurette-divider">
+    </div><!--end container -->
 
     <?php include ('./seph/hf/footer.html'); ?>
+    <?php //include ('./coreFRONTx/hallowin-modulo.html'); ?>
 
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
     <script src="./vendor/components/jquery/jquery.min.js"></script>
+    <!-- Checar
     <script>window.jQuery || document.write('<script src="./vendor/components/jquery/jquery.min.js"><\/script>')</script>
+  -->
     <script src="./vendor/twbs/bootstrap/dist/js/bootstrap.min.js"></script>
-    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <!-- Just to make our placeholder images work. -->
     <script src="./coreFRONTx/holder.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="./coreFRONTx/ie10-viewport-bug-workaround.js"></script>
-
-
+    <!-- Para dar movimiento al slider de las noticias politicas -->
+    <script src="./coreFRONTx/rmbc/rmbc.js"></script>
 
 <!--
     <svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" preserveAspectRatio="none" style="display: none; visibility: hidden; position: absolute; top: -100%; left: -100%;">
@@ -91,12 +110,9 @@
       <text x="0" y="25" style="font-weight:bold;font-size:25pt;font-family:Arial, Helvetica, Open Sans, sans-serif">
         500x500
       </text>
-    </svg>
-  -->
-
+    </svg>  -->
 
     Ver 0.11
-
 
   </body>
 </html>
