@@ -7,67 +7,41 @@
     <div class="col-md-3">
       <h2>Institución</h2>
       <hr />
-      <p>
-      <a href="#">Historia</a><br />
-      <hr />
-      <a href="#">Modelo educativo</a><br />
-      <hr />
-      <a href="#">Misión</a><br />
-      <hr />
-      <a href="#">Visión</a><br />
-      <hr />
-      <a href="#">Calendario Académico</a>
-      <hr />
-      <a href="#">Normatividad</a><br />
-      <hr />
-      <a href="#">Sistema de gestión de la calidad</a><br />
-      <hr />
-      <a href="#">Indicadores de desempeño</a><br />
-      <hr />
-      <a href="#">Ubicación</a><br />
-      </p>
+        <p><a href="#">Historia</a></p>
+        <p><a href="#">Modelo educativo</a></p>
+        <p><a href="#">Misión</a></p>
+        <p><a href="#">Visión</a></p>
+        <p><a href="#">Calendario Académico</a></p>
+        <p><a href="#">Normatividad</a></p>
+        <p><a href="#">Sistema de gestión de la calidad</a></p>
+        <p><a href="#">Indicadores de desempeño</a></p>
+        <p><a href="#">Ubicación</a></p>
     </div>
     <div class="col-md-3">
       <h2>Legales</h2>
       <hr />
-      <p>
-        <a href="#">Auditoria externa</a><br />
-        <hr />
-        <a href="#">Inventario</a><br />
-        <hr />
-        <a href="#">Contraloría social</a><br />
-        <hr />
-        <a href="#">Fondos extraordinarios</a><br />
-        <hr />
-        <a href="#">Ley general de contabilidad gubernamental</a>
-        <hr />
-        <a href="#">Licitaciones e invitaciones</a><br />
-      </p>
+        <p><a href="#">Auditoria externa</a></p>
+        <p><a href="#">Inventario</a><br /></p>
+        <p><a href="#">Contraloría social</a></p>
+        <p><a href="#">Fondos extraordinarios</a></p>
+        <p><a href="#">Ley general de contabilidad gubernamental</a></p>
+        <p><a href="#">Licitaciones e invitaciones</a></p>
     </div>
     <div class="col-md-3">
       <h2>Centros</h2>
       <hr />
-      <p>
-        <a href="#">Investigación bibliográfica</a><br />
-        <hr />
-        <a href="#">Equinoterapia</a><br />
-        <hr />
-        <a href="#">Rehabilitación física</a><br />
-      </p>
+        <p><a href="#">Investigación bibliográfica</a></p>
+        <p><a href="#">Equinoterapia</a></p>
+        <p><a href="#">Rehabilitación física</a></p>
     </div>
 
     <div class="col-md-3">
       <h2>Departamentos</h2>
       <hr />
-      <p>
-        <a href="#">Internacionalización</a><br />
-        <hr />
-        <a href="#">Cultura</a><br />
-        <hr />
-        <a href="#">Servicio médico</a><br />
-        <hr />
-        <a href="#">TIC's</a><br />
-      </p>
+        <p><a href="#">Internacionalización</a></p>
+        <p><a href="#">Cultura</a></p>
+        <p><a href="#">Servicio médico</a></p>
+        <p><a href="#">TIC's</a></p>
     </div>
 
   </div>
