@@ -1,8 +1,11 @@
 <div class="container">
 
+  <h2>Nuestra Universidad</h2>
+  <br />
+
   <div class="row">
     <div class="col-md-3">
-      <h1>Institución</h1>
+      <h2>Institución</h2>
       <hr />
       <p>
       <a href="#">Historia</a><br />
@@ -25,7 +28,7 @@
       </p>
     </div>
     <div class="col-md-3">
-      <h1>Sitios</h1>
+      <h2>Legales</h2>
       <hr />
       <p>
         <a href="#">Auditoria externa</a><br />
@@ -42,7 +45,7 @@
       </p>
     </div>
     <div class="col-md-3">
-      <h1>Centros</h1>
+      <h2>Centros</h2>
       <hr />
       <p>
         <a href="#">Investigación bibliográfica</a><br />
@@ -54,7 +57,7 @@
     </div>
 
     <div class="col-md-3">
-      <h1>Departamentos</h1>
+      <h2>Departamentos</h2>
       <hr />
       <p>
         <a href="#">Internacionalización</a><br />

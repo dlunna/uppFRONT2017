@@ -19,40 +19,15 @@
     <!-- Bootstrap core CSS -->
     <link href="./vendor/twbs/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <!-- Checar
-    <link href="./coreFRONTx/ie10-viewport-bug-workaround.css" rel="stylesheet">
-  -->
-
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <!-- Checar
-    <script src="./coreFRONTx/ie-emulation-modes-warning.js"></script>
-  -->
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-    <!-- Modelo de ejemplo para el carrucel NO USAR
-    <link href="./vendor/twbs/bootstrap/docs/examples/carousel/carousel.css" rel="stylesheet">
-  -->
-
     <!-- Para centrar los iconos -->
     <link href="./coreFRONTx/iconos/iconos-centrados.css" rel="stylesheet">
 
-    <!-- Checar
-    <link href="./vendor/twbs/bootstrap/docs/examples/navbar-static-top/navbar-static-top.css" rel="stylesheet">
-  -->
-
-    <!-- rmbc -->
-    <link href="./coreFRONTx/rmbc/rmbc.css" rel="stylesheet">
+    <!-- Eventos de difusion de comunicacion social -->
+    <link href="./coreFRONTx/prensa/rmbc.css" rel="stylesheet">
 
     <!-- Fondo para la página -->
     <!--
-    <link href="./coreFRONTx/fondo.css" rel="stylesheet">
+    <link href="./coreFRONTx/fondo/fondo.css" rel="stylesheet">
   -->
 
     <!-- Estilo SEP HIDALGO -->
@@ -61,29 +36,45 @@
   </head>
 
   <body>
-
+    <!-- Logos e imagen de hidalgo -->
     <?php include ('./seph/hf/header.html'); ?>
-    <?php include ('./coreFRONTx/menusup/menu.html'); ?>
-    <?php include ('./coreFRONTx/goo/gsearch.html'); ?>
-    <?php include ('./coreFRONTx/caroucel/caroucel.html'); ?>
+
+    <!-- Menu principal superior -->
+    <?php include ('./coreFRONTx/menu-superior/menu.html'); ?>
+
+    <!-- Motor de busqueda de google -->
+    <?php include ('./coreFRONTx/google/gsearch.html'); ?>
+
+    <!-- Slider principal -->
+    <?php include ('./coreFRONTx/slider-principal/caroucel.html'); ?>
 
     <br />
 
     <div class="container marketing">
+      <!-- Iconos de las secciones -->
       <?php include ('./coreFRONTx/iconos/marketing.html'); ?>
         <hr class="featurette-divider">
-      <?php include ('./coreFRONTx/rmbc/rmbc.html'); ?>
+
+      <!-- Prensa seccion de comunicacion social de eventos -->
+      <?php include ('./coreFRONTx/prensa/rmbc.html'); ?>
         <hr class="featurette-divider">
+
+      <!-- comunidad upp y egresados -->
       <?php include ('./coreFRONTx/comunidad/comunidadupp.html'); ?>
         <hr class="featurette-divider">
-      <?php include ('./coreFRONTx/comunidad/egresados.html'); ?>        
+      <?php include ('./coreFRONTx/comunidad/egresados.html'); ?>
         <hr class="featurette-divider">
-      <?php include ('./coreFRONTx/goo/gcalendar.html'); ?>
+
+      <!-- Calendario de google -->
+      <?php include ('./coreFRONTx/google/gcalendar.html'); ?>
         <hr class="featurette-divider">
-      <?php include ('./coreFRONTx/menufooter.php'); ?>
+
+      <!-- Menu con todos los sitios y mini sitios de la página -->
+      <?php include ('./coreFRONTx/menu-footer/menufooter.php'); ?>
         <hr class="featurette-divider">
     </div><!--end container -->
 
+    <!-- footer de gobierno del estado -->
     <?php include ('./seph/hf/footer.html'); ?>
     <?php //include ('./coreFRONTx/hallowin-modulo.html'); ?>
 
@@ -91,26 +82,10 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <script src="./vendor/components/jquery/jquery.min.js"></script>
-    <!-- Checar
-    <script>window.jQuery || document.write('<script src="./vendor/components/jquery/jquery.min.js"><\/script>')</script>
-  -->
     <script src="./vendor/twbs/bootstrap/dist/js/bootstrap.min.js"></script>
-    <!-- Just to make our placeholder images work. -->
-    <script src="./coreFRONTx/holder.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="./coreFRONTx/ie10-viewport-bug-workaround.js"></script>
+
     <!-- Para dar movimiento al slider de las noticias politicas -->
     <script src="./coreFRONTx/rmbc/rmbc.js"></script>
-
-<!--
-    <svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" preserveAspectRatio="none" style="display: none; visibility: hidden; position: absolute; top: -100%; left: -100%;">
-      <defs>
-        <style type="text/css"></style>
-      </defs>
-      <text x="0" y="25" style="font-weight:bold;font-size:25pt;font-family:Arial, Helvetica, Open Sans, sans-serif">
-        500x500
-      </text>
-    </svg>  -->
 
     Ver 0.11
 
