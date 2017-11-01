@@ -33,6 +33,7 @@
         <p><a href="#">Investigación bibliográfica</a></p>
         <p><a href="#">Equinoterapia</a></p>
         <p><a href="#">Rehabilitación física</a></p>
+        <p><a href="#">centro de lenguas</a></p>
     </div>
 
     <div class="col-md-3">

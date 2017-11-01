@@ -25,6 +25,11 @@
     <!-- Eventos de difusion de comunicacion social -->
     <link href="./coreFRONTx/prensa/rmbc.css" rel="stylesheet">
 
+    <!-- Alfredo OWN carrucel -->
+    <!--owl carousel css-->
+    <link rel="stylesheet" href="coreFRONTx/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="coreFRONTx/owl/owl.theme.default.min.css">
+
     <!-- Fondo para la página -->
     <!--
     <link href="./coreFRONTx/fondo/fondo.css" rel="stylesheet">
@@ -53,7 +58,6 @@
     <div class="container marketing">
       <!-- Iconos de las secciones -->
       <?php include ('./coreFRONTx/iconos/marketing.html'); ?>
-        <hr class="featurette-divider">
 
       <!-- Prensa seccion de comunicacion social de eventos -->
       <?php include ('./coreFRONTx/prensa/rmbc.html'); ?>
@@ -67,6 +71,13 @@
 
       <!-- Calendario de google -->
       <?php include ('./coreFRONTx/google/gcalendar.html'); ?>
+        <hr class="featurette-divider">
+
+      <?php include ('coreFRONTx/entradas/nuevo.html'); ?>
+
+      <!-- Alfredo redes sociales y sitios de interes -->
+      <?php include ('coreFRONTx/owl/tabs.html'); ?>
+      <?php include ('coreFRONTx/owl/ligas.html'); ?>
         <hr class="featurette-divider">
 
       <!-- Menu con todos los sitios y mini sitios de la página -->
@@ -85,7 +96,11 @@
     <script src="./vendor/twbs/bootstrap/dist/js/bootstrap.min.js"></script>
 
     <!-- Para dar movimiento al slider de las noticias politicas -->
-    <script src="./coreFRONTx/rmbc/rmbc.js"></script>
+    <script src="./coreFRONTx/prensa/rmbc.js"></script>
+
+    <!-- Alfredo OWN carrucel -->
+    <script src="coreFRONTx/owl/owl.carousel.min.js"></script>
+    <script src="coreFRONTx/owl/owl.js"></script>
 
     Ver 0.11
 
