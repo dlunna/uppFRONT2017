@@ -102,7 +102,7 @@
     <script src="coreFRONTx/owl/owl.carousel.min.js"></script>
     <script src="coreFRONTx/owl/owl.js"></script>
 
-    Ver 0.11
+    Ver 2.7
 
   </body>
 </html>
