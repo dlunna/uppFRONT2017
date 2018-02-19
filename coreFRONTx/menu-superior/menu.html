@@ -1,5 +1,6 @@
 <!-- Static navbar -->
-<nav class="navbar navbar-default navbar-static-top">
+<!--<nav class="navbar navbar-default navbar-static-top">-->
+<nav class="navbar navbar-default navbar-static-top" data-spy="affix" data-offset-top="650">  
   <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -19,7 +20,7 @@
         <li class="active"><a href="http://www.upp.edu.mx">UPP</a></li>
         <li><a href="https://sii.upp.edu.mx">SII</a></li>
         <li><a href="http://transparencia.hidalgo.gob.mx/?p=719">Transparencia</a></li>
-        <li><a href="#">Contacto</a></li>
+        <li><a href="#contacto">Contacto</a></li>
         <!--
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
@@ -44,6 +45,20 @@
         <li><a href="../navbar-fixed-top/">Fixed top</a></li>
       -->
 
+      <li style=" width: 300px;">
+        <script>
+          (function() {
+            var cx = '006343853153777457233:bjp7ht6mskm';
+            var gcse = document.createElement('script');
+            gcse.type = 'text/javascript';
+            gcse.async = true;
+            gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(gcse, s);
+          })();
+        </script>
+        <div class="gcse-search"></div>
+      </li>
 
       <li>
         <a href="index.php?var_idioma=1" target="_self">
@@ -52,7 +67,9 @@
       </li>
       <li>
         <a href="index.php?var_idioma=2" target="_self">
+          <!--
           <img src="./images/usa.png" alt="English">
+        -->
         </a>
       </li>
 

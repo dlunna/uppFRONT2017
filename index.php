@@ -27,8 +27,10 @@
 
     <!-- Alfredo OWN carrucel -->
     <!--owl carousel css-->
+    <!--
     <link rel="stylesheet" href="coreFRONTx/owl/owl.carousel.min.css">
     <link rel="stylesheet" href="coreFRONTx/owl/owl.theme.default.min.css">
+  -->
 
     <!-- Fondo para la página -->
     <!--
@@ -37,6 +39,17 @@
 
     <!-- Estilo SEP HIDALGO -->
     <link href="./seph/style.css" rel="stylesheet">
+
+    <!-- Estilo para el menu pegajoso -->
+    <link href="./coreFRONTx/menu-pegajoso/estilo.css" rel="stylesheet">
+
+    <!-- Estilo para el boton flotante que te lleva arriba-->
+    <link href="./coreFRONTx/boton-arriba/estilo.css" rel="stylesheet">
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <script src="./vendor/components/jquery/jquery.min.js"></script>
+    <script src="./vendor/twbs/bootstrap/dist/js/bootstrap.min.js"></script>
 
   </head>
 
@@ -48,7 +61,7 @@
     <?php include ('./coreFRONTx/menu-superior/menu.html'); ?>
 
     <!-- Motor de busqueda de google -->
-    <?php include ('./coreFRONTx/google/gsearch.html'); ?>
+    <?php //include ('./coreFRONTx/google/gsearch.html'); ?>
 
     <!-- Slider principal -->
     <?php include ('./coreFRONTx/slider-principal/caroucel.html'); ?>
@@ -60,7 +73,12 @@
       <?php include ('./coreFRONTx/iconos/marketing.html'); ?>
 
       <!-- Prensa seccion de comunicacion social de eventos -->
-      <?php include ('./coreFRONTx/prensa/rmbc.html'); ?>
+      <?php //include ('./coreFRONTx/prensa/rmbc.php'); ?>
+      <?php //include ('./coreFRONTx/prensa/tempora.html'); ?>
+      <?php //include ('./coreFRONTx/prensa/temporal2.html'); ?>
+      <?php include ('./coreFRONTx/prensa/t3.php'); ?>
+      <?php //include ('./coreFRONTx/prensa/t4.html'); ?>
+
         <hr class="featurette-divider">
 
       <!-- comunidad upp y egresados -->
@@ -71,13 +89,16 @@
 
       <!-- Calendario de google -->
       <?php include ('./coreFRONTx/google/gcalendar.html'); ?>
-        <hr class="featurette-divider">
 
-      <?php include ('coreFRONTx/entradas/nuevo.html'); ?>
+
+      <?php include ('./coreFRONTx/entradas/nuevo.php'); ?>
+        <br />
 
       <!-- Alfredo redes sociales y sitios de interes -->
-      <?php include ('coreFRONTx/owl/tabs.html'); ?>
-      <?php include ('coreFRONTx/owl/ligas.html'); ?>
+      <?php include ('./coreFRONTx/owl/tabs.html'); ?>
+        <br />
+
+      <?php include ('./coreFRONTx/prensa/iconosfooter.php'); ?>
         <hr class="featurette-divider">
 
       <!-- Menu con todos los sitios y mini sitios de la página -->
@@ -90,19 +111,20 @@
     <?php //include ('./coreFRONTx/hallowin-modulo.html'); ?>
 
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <script src="./vendor/components/jquery/jquery.min.js"></script>
-    <script src="./vendor/twbs/bootstrap/dist/js/bootstrap.min.js"></script>
+    <a href="#" class="back-to-top">Volver arriba</a>
+    <!-- Script para dar la animacion al boton flotante que lleva arriba -->
+    <script src="./coreFRONTx/boton-arriba/script.js"></script>
 
     <!-- Para dar movimiento al slider de las noticias politicas -->
     <script src="./coreFRONTx/prensa/rmbc.js"></script>
 
     <!-- Alfredo OWN carrucel -->
+    <!--
     <script src="coreFRONTx/owl/owl.carousel.min.js"></script>
     <script src="coreFRONTx/owl/owl.js"></script>
+  -->
 
-    Ver 2.7
+    Ver 3.5
 
   </body>
 </html>
