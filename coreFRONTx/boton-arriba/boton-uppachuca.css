@@ -1,0 +1,47 @@
+/*  http://blog.koalite.com/bbg/   */
+
+.btn-uppachuca {
+  color: #ffffff;
+  background-color: #611BBD;
+  border-color: #130269;
+}
+
+.btn-uppachuca:hover,
+.btn-uppachuca:focus,
+.btn-uppachuca:active,
+.btn-uppachuca.active,
+.open .dropdown-toggle.btn-uppachuca {
+  color: #ffffff;
+  background-color: #49247A;
+  border-color: #130269;
+}
+
+.btn-uppachuca:active,
+.btn-uppachuca.active,
+.open .dropdown-toggle.btn-uppachuca {
+  background-image: none;
+}
+
+.btn-uppachuca.disabled,
+.btn-uppachuca[disabled],
+fieldset[disabled] .btn-uppachuca,
+.btn-uppachuca.disabled:hover,
+.btn-uppachuca[disabled]:hover,
+fieldset[disabled] .btn-uppachuca:hover,
+.btn-uppachuca.disabled:focus,
+.btn-uppachuca[disabled]:focus,
+fieldset[disabled] .btn-uppachuca:focus,
+.btn-uppachuca.disabled:active,
+.btn-uppachuca[disabled]:active,
+fieldset[disabled] .btn-uppachuca:active,
+.btn-uppachuca.disabled.active,
+.btn-uppachuca[disabled].active,
+fieldset[disabled] .btn-uppachuca.active {
+  background-color: #611BBD;
+  border-color: #130269;
+}
+
+.btn-uppachuca .badge {
+  color: #611BBD;
+  background-color: #ffffff;
+}

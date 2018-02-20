@@ -45,6 +45,7 @@
 
     <!-- Estilo para el boton flotante que te lleva arriba-->
     <link href="./coreFRONTx/boton-arriba/estilo.css" rel="stylesheet">
+    <link href="./coreFRONTx/boton-arriba/boton-uppachuca.css" rel="stylesheet">
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -99,6 +100,7 @@
         <br />
 
       <?php include ('./coreFRONTx/prensa/iconosfooter.php'); ?>
+      <a name="mapadesitio"></a>
         <hr class="featurette-divider">
 
       <!-- Menu con todos los sitios y mini sitios de la página -->
@@ -124,7 +126,7 @@
     <script src="coreFRONTx/owl/owl.js"></script>
   -->
 
-    Ver 3.5
+    Ver 4
 
   </body>
 </html>

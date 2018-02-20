@@ -1,6 +1,9 @@
 <div class="container">
 
   <h2>Nuestra Universidad</h2>
+
+  <p>Mapa de sitio</p>
+
   <br />
 
   <div class="row">
